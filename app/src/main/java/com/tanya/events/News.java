@@ -36,7 +36,6 @@ public class News extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news);
 
-
         lvNews = (ListView) findViewById(R.id.listview_news) ;
 
         newsItemList = new ArrayList<>() ;
